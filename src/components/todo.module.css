@@ -22,3 +22,21 @@
   color: #777;
   text-decoration: line-through;
 }
+
+
+.delete{
+  border-radius: 50%;
+  box-sizing: border-box;
+  line-height: 1;
+  text-align: center;
+  height: 40px;
+  width: 40px;
+  padding: 5px;
+  border: 1px solid #eee;
+  background-color: magenta;
+  color: #eee;
+}
+.delete:hover{
+  cursor: pointer;
+  background-color: #ccc;
+}
